@@ -1,0 +1,403 @@
+"C:\Program Files\Java\jdk1.8.0_121\bin\java" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.1\lib\idea_rt.jar=60186:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;D:\Junior\P2_IR_MuGle\out\production\P2_IR_MuGle;D:\Junior\P2_IR_MuGle\lib\commons-io-2.6.jar;D:\Junior\P2_IR_MuGle\lib\opennlp-tools-1.9.0.jar" StudentTester
+1
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.37142857142857144, 0.043857180230085425, 0.0738745325963371]
+@@@ TFIDF: [0.42857142857142855, 0.05688542182975559, 0.09299017885484048]
+@@@ Total time used: 14032 milliseconds.
+2
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.2714285714285714, 0.0568629896088, 0.08630778745064459]
+@@@ TFIDF: [0.4142857142857143, 0.1419761442250602, 0.17368629782915496]
+@@@ Total time used: 12575 milliseconds.
+3
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.21904761904761905, 0.0668629896088, 0.09361631832220066]
+@@@ TFIDF: [0.4, 0.18655894803791206, 0.2112999045772155]
+@@@ Total time used: 12149 milliseconds.
+4
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.18571428571428572, 0.07454493030960863, 0.09625004346808858]
+@@@ TFIDF: [0.35, 0.22941095676593157, 0.22747969710375726]
+@@@ Total time used: 12100 milliseconds.
+5
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.16, 0.07667131545486171, 0.09265973225728531]
+@@@ TFIDF: [0.3142857142857143, 0.2575010607320463, 0.23166486045936635]
+@@@ Total time used: 12266 milliseconds.
+6
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.15238095238095237, 0.08422957031769877, 0.09693476221581562]
+@@@ TFIDF: [0.2952380952380952, 0.27730959119919624, 0.23525363344369374]
+@@@ Total time used: 12705 milliseconds.
+7
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.14693877551020404, 0.10267755656716164, 0.10340132706253892]
+@@@ TFIDF: [0.28571428571428575, 0.29956172361305367, 0.24263974847698866]
+@@@ Total time used: 12939 milliseconds.
+8
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.13214285714285715, 0.10391979259200636, 0.0993506867916786]
+@@@ TFIDF: [0.2714285714285714, 0.3172089831857791, 0.24264307489098788]
+@@@ Total time used: 12165 milliseconds.
+9
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.12380952380952383, 0.10766128919064581, 0.09873887653100764]
+@@@ TFIDF: [0.2571428571428571, 0.3236025297410507, 0.23664963033051908]
+@@@ Total time used: 12153 milliseconds.
+10
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.11714285714285716, 0.11296227751050206, 0.09837910465851286]
+@@@ TFIDF: [0.24000000000000002, 0.32648275042274805, 0.22766465653098245]
+@@@ Total time used: 12044 milliseconds.
+11
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.11688311688311688, 0.11822345057315171, 0.10041797117543909]
+@@@ TFIDF: [0.2337662337662337, 0.3441236671319878, 0.22967354626115477]
+@@@ Total time used: 12156 milliseconds.
+12
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.11428571428571428, 0.13579221721024137, 0.10400437817240693]
+@@@ TFIDF: [0.22380952380952376, 0.3536598452395945, 0.22801829550690197]
+@@@ Total time used: 12436 milliseconds.
+13
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.11428571428571431, 0.1830711287748672, 0.11196439592851834]
+@@@ TFIDF: [0.21978021978021978, 0.3631387053770741, 0.22799331851325746]
+@@@ Total time used: 12103 milliseconds.
+14
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.11224489795918369, 0.18839499745277316, 0.11296283434173267]
+@@@ TFIDF: [0.21428571428571427, 0.371145545471105, 0.22675425873825256]
+@@@ Total time used: 12234 milliseconds.
+15
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.1161904761904762, 0.20245625931551164, 0.11980305523762481]
+@@@ TFIDF: [0.20380952380952383, 0.3740655814100089, 0.2205572409094024]
+@@@ Total time used: 12124 milliseconds.
+16
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.1125, 0.20709447823944485, 0.11938264920346722]
+@@@ TFIDF: [0.19285714285714287, 0.3753078174348536, 0.21354319713096812]
+@@@ Total time used: 12107 milliseconds.
+17
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.10756302521008401, 0.20833671426428957, 0.1165760332233538]
+@@@ TFIDF: [0.18655462184873947, 0.3827856765030092, 0.2110126618910272]
+@@@ Total time used: 12470 milliseconds.
+18
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.10158730158730156, 0.20833671426428957, 0.11261780347427733]
+@@@ TFIDF: [0.18253968253968253, 0.3892084462798162, 0.20984284572712036]
+@@@ Total time used: 12971 milliseconds.
+19
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.09774436090225565, 0.20957895028913429, 0.11029850663316418]
+@@@ TFIDF: [0.18045112781954883, 0.3990449451846381, 0.21101396313282533]
+@@@ Total time used: 12458 milliseconds.
+20
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.09714285714285711, 0.213746151760918, 0.1108027294508177]
+@@@ TFIDF: [0.1757142857142857, 0.4024135663547359, 0.20781419239807408]
+@@@ Total time used: 12347 milliseconds.
+21
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.09251700680272106, 0.213746151760918, 0.10746693124739563]
+@@@ TFIDF: [0.16870748299319727, 0.40479451873568834, 0.20310197550259448]
+@@@ Total time used: 12494 milliseconds.
+22
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.09220779220779218, 0.2206344416680758, 0.10856949802928571]
+@@@ TFIDF: [0.16493506493506493, 0.41308870433445605, 0.20148203244679336]
+@@@ Total time used: 12571 milliseconds.
+23
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.08944099378881992, 0.22349158452521867, 0.10724461970939554]
+@@@ TFIDF: [0.16024844720496892, 0.41637175668583143, 0.1984273929534092]
+@@@ Total time used: 12198 milliseconds.
+24
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.0857142857142857, 0.22349158452521867, 0.10431420771066355]
+@@@ TFIDF: [0.15833333333333335, 0.42530086291951985, 0.19837621145290021]
+@@@ Total time used: 12527 milliseconds.
+25
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.08342857142857145, 0.22587253690617107, 0.10309251589179261]
+@@@ TFIDF: [0.15771428571428578, 0.4414410581280381, 0.20093905217601943]
+@@@ Total time used: 12425 milliseconds.
+26
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.08351648351648353, 0.23037279854928983, 0.1041793849574978]
+@@@ TFIDF: [0.15384615384615383, 0.45123697649538497, 0.19920618254141506]
+@@@ Total time used: 12131 milliseconds.
+27
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.0814814814814815, 0.23147169964819092, 0.10266025022726999]
+@@@ TFIDF: [0.15555555555555553, 0.4944190187457503, 0.20462305257894237]
+@@@ Total time used: 12394 milliseconds.
+28
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.07959183673469386, 0.23233750051399177, 0.10111203945713332]
+@@@ TFIDF: [0.15204081632653058, 0.49631864652138885, 0.2013527123588101]
+@@@ Total time used: 12112 milliseconds.
+29
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.07980295566502461, 0.23776444072354067, 0.10247803408266987]
+@@@ TFIDF: [0.14778325123152708, 0.4968577300793404, 0.19713799109397465]
+@@@ Total time used: 12253 milliseconds.
+30
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.08, 0.24662572436743305, 0.10422797359964213]
+@@@ TFIDF: [0.14285714285714285, 0.4968577300793404, 0.19246129301336395]
+@@@ Total time used: 12879 milliseconds.
+31
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.07926267281105989, 0.24990877671880837, 0.10422345957256625]
+@@@ TFIDF: [0.13824884792626724, 0.4968577300793404, 0.18800991284976798]
+@@@ Total time used: 12453 milliseconds.
+32
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.07678571428571429, 0.24990877671880837, 0.10195024556211589]
+@@@ TFIDF: [0.13482142857142856, 0.4973968136372919, 0.1844397527931547]
+@@@ Total time used: 12084 milliseconds.
+33
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.07619047619047617, 0.25203516186406144, 0.10156267110885565]
+@@@ TFIDF: [0.1307359307359307, 0.4973968136372919, 0.18038367411572334]
+@@@ Total time used: 12603 milliseconds.
+34
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.0756302521008403, 0.253673146520914, 0.10106420009596773]
+@@@ TFIDF: [0.12773109243697472, 0.4997777660182442, 0.17775078731379285]
+@@@ Total time used: 12305 milliseconds.
+35
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.07510204081632652, 0.2568096326762681, 0.10091387961443425]
+@@@ TFIDF: [0.12489795918367341, 0.5011383102359313, 0.1750384301527916]
+@@@ Total time used: 12380 milliseconds.
+36
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.073015873015873, 0.2568096326762681, 0.09892209504375789]
+@@@ TFIDF: [0.12301587301587295, 0.5044213625873066, 0.17355795409507557]
+@@@ Total time used: 12342 milliseconds.
+37
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.07258687258687259, 0.2587092604519066, 0.0986303592660968]
+@@@ TFIDF: [0.11969111969111973, 0.5044213625873066, 0.1700767976596437]
+@@@ Total time used: 12222 milliseconds.
+38
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.07218045112781954, 0.29204259378523995, 0.09953376776360237]
+@@@ TFIDF: [0.1180451127819549, 0.5070012624717887, 0.16846378715373464]
+@@@ Total time used: 12399 milliseconds.
+39
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.07106227106227105, 0.29314149488414104, 0.09855821834197669]
+@@@ TFIDF: [0.11575091575091574, 0.5095986650691913, 0.16637189446175762]
+@@@ Total time used: 12248 milliseconds.
+40
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.07142857142857142, 0.2988104291245039, 0.0998620744498984]
+@@@ TFIDF: [0.11428571428571428, 0.5142368839931244, 0.16541903058776533]
+@@@ Total time used: 12161 milliseconds.
+41
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.06968641114982581, 0.2988104291245039, 0.09807572774411538]
+@@@ TFIDF: [0.11289198606271779, 0.5451892649455055, 0.16480460071403294]
+@@@ Total time used: 12271 milliseconds.
+42
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.06938775510204082, 0.30467123498530974, 0.09838499362580753]
+@@@ TFIDF: [0.11020408163265306, 0.5451892649455055, 0.1618136871262106]
+@@@ Total time used: 12356 milliseconds.
+43
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.06843853820598006, 0.3055370358511106, 0.0974401022446445]
+@@@ TFIDF: [0.10897009966777411, 0.5471539669102073, 0.16051242322768275]
+@@@ Total time used: 12551 milliseconds.
+44
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.06688311688311686, 0.3055370358511106, 0.0957928451563197]
+@@@ TFIDF: [0.10649350649350652, 0.5471539669102073, 0.15771309569417455]
+@@@ Total time used: 13126 milliseconds.
+45
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.0653968253968254, 0.3055370358511106, 0.09420199075478326]
+@@@ TFIDF: [0.10476190476190476, 0.5487412684975089, 0.15591935009233276]
+@@@ Total time used: 12542 milliseconds.
+46
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.06459627329192548, 0.30640283671691143, 0.09338795074293388]
+@@@ TFIDF: [0.10434782608695654, 0.5546020743583148, 0.15602320374182382]
+@@@ Total time used: 12388 milliseconds.
+47
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.06382978723404256, 0.30799013830421307, 0.09277143555593004]
+@@@ TFIDF: [0.10334346504559272, 0.5602710085986775, 0.15538466532957387]
+@@@ Total time used: 12201 milliseconds.
+48
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.0630952380952381, 0.3092323743290578, 0.09211577429775904]
+@@@ TFIDF: [0.1011904761904762, 0.5602710085986775, 0.1528619860283222]
+@@@ Total time used: 12267 milliseconds.
+49
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.06297376093294461, 0.3106372587528101, 0.09194768755807783]
+@@@ TFIDF: [0.10029154518950434, 0.5634074947540316, 0.1519344456598236]
+@@@ Total time used: 12446 milliseconds.
+50
+@@@ Comparing two searchers on all the queries in ./data/lisa
+@@@ Finished loading 35 documents from ./data/lisa/queries.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Finished loading 5999 documents from ./data/lisa/documents.txt
+@@@ Jaccard: [0.06400000000000002, 0.3216525327869521, 0.09403319969727526]
+@@@ TFIDF: [0.09885714285714291, 0.5646497307788764, 0.1503345015624751]
+@@@ Total time used: 12256 milliseconds.
+
+Process finished with exit code 0
